@@ -1,0 +1,11 @@
+services:
+  chromadb_vector_store:
+    image: chromadb/chroma:0.5.20
+    container_name: chromadb_vectorstore
+    restart: unless-stopped
+    environment:
+      - CHROMA_HOST_PORT=42042
+    ports:
+      - "42042:42042"
+    volumes:
+      - /chroma:/chroma/chroma⏎

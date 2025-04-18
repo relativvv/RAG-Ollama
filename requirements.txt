@@ -1,0 +1,7 @@
+llama-index-core~=0.12.31
+llama-index-embeddings-ollama~=0.6.0
+llama-index-llms-ollama~=0.5.4
+pypdf~=5.4.0
+dotenv~=0.9.9
+python-dotenv~=1.1.0
+chromadb~=1.0.5
