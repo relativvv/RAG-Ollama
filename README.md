@@ -1,4 +1,4 @@
-# RAG---Ollama
+# RAG-Ollama
 
 A Retrieval-Augmented Generation (RAG) application that uses local Ollama models to answer questions based on your documents. This project demonstrates how to build a complete RAG pipeline with purely local, self-hosted components.
 
